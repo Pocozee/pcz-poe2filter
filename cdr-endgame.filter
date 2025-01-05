@@ -1395,7 +1395,6 @@ Show # %H4 $type->waystones $tier->waystones_d_t1
 
 Hide # $type->waystones $tier->lowtier
 	WaystoneTier <= 14
-	AreaLevel >= 79
 	Class == "Waystones"
 	SetFontSize 40
 	SetTextColor 255 255 255 255

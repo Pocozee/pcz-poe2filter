@@ -676,7 +676,7 @@ Show # t1 Amultes
 Show # t1 Rings
 	ItemLevel >= 65
 	Rarity Rare
-	Class =="Rings"
+	Class == "Rings"
 	BaseType == "Gold Ring" "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Amethyst Ring" "Prismatic Ring"
 	SetFontSize 45
 	SetBackgroundColor 0 80 30 255
@@ -684,7 +684,7 @@ Show # t1 Rings
 Show # t1 Belts
 	ItemLevel >= 65
 	Rarity Rare
-	Class =="Belts"
+	Class == "Belts"
 	BaseType == "Mail Belt" "Utility Belt"
 	SetFontSize 45
 	SetBackgroundColor 0 80 30 255

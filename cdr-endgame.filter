@@ -1494,7 +1494,7 @@ Hide # Djinn Barya low tier
 	BaseType == "Djinn Barya"
 	Rarity == Normal
 	AreaLevel >= 79
-	ItemLevel <79
+	ItemLevel < 79
 	SetFontSize 35
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
@@ -1551,7 +1551,7 @@ Hide # Inscribed Ultimatum low tier
 	BaseType == "Inscribed Ultimatum"
 	Rarity == Normal
 	AreaLevel >= 79
-	ItemLevel <79
+	ItemLevel < 79
 	SetFontSize 35
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255

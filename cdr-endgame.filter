@@ -1463,7 +1463,7 @@ Show # Djinn Barya 4 trials i80
 	SetFontSize 40
 	SetTextColor 255 200 0 255
 	SetBorderColor 0 0 0 255
-	SetBackgroundColor 200 150 200 255
+	SetBackgroundColor 150 80 150 255
 	PlayAlertSound 2 300
 	PlayEffect Yellow
 	MinimapIcon 2 Yellow Hexagon
@@ -1472,28 +1472,22 @@ Show # Djinn Barya 4 trials (4th ascension)
 	Class == "Trial Coins"
 	BaseType == "Djinn Barya"
 	Rarity == Normal
-	AreaLevel <= 79
+	AreaLevel < 79
 	ItemLevel >= 75
-	SetFontSize 40
+	SetFontSize 35
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
-	SetBackgroundColor 200 150 200 255
-	PlayAlertSound 2 300
-	PlayEffect Yellow
-	MinimapIcon 2 Yellow Hexagon
+	SetBackgroundColor 150 80 150 255
 	
 Show # Djinn Barya any
 	Class == "Trial Coins"
 	BaseType == "Djinn Barya"
 	Rarity == Normal
 	AreaLevel <= 74
-	SetFontSize 40
+	SetFontSize 35
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
-	SetBackgroundColor 200 150 200 255
-	PlayAlertSound 2 300
-	PlayEffect Grey
-	MinimapIcon 2 Grey Hexagon
+	SetBackgroundColor 150 80 150 255
 
 Show # Trialmaster Inscribed Ultimatiums
 	Class == "Inscribed Ultimatum"
@@ -1502,7 +1496,7 @@ Show # Trialmaster Inscribed Ultimatiums
 	SetFontSize 40
 	SetTextColor 0 0 0 255
 	SetBorderColor 255 0 0
-	SetBackgroundColor 200 150 200 255
+	SetBackgroundColor 150 80 150 255
 	PlayAlertSound 2 300
 	PlayEffect Yellow
 	MinimapIcon 1 Yellow Hexagon
@@ -1515,7 +1509,7 @@ Show # Inscribed Ultimatum 10 trials i80
 	SetFontSize 40
 	SetTextColor 255 200 0 255
 	SetBorderColor 0 0 0 255
-	SetBackgroundColor 200 150 200 255
+	SetBackgroundColor 150 80 150 255
 	PlayAlertSound 2 300
 	PlayEffect Yellow
 	MinimapIcon 2 Yellow Hexagon
@@ -1524,28 +1518,22 @@ Show # Inscribed Ultimatum 10 trials (4th ascension)
 	Class == "Inscribed Ultimatum"
 	BaseType == "Inscribed Ultimatum"
 	Rarity == Normal
-	AreaLevel <= 79
+	AreaLevel < 79
 	ItemLevel >= 75
-	SetFontSize 40
+	SetFontSize 35
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
-	SetBackgroundColor 200 150 200 255
-	PlayAlertSound 2 300
-	PlayEffect Yellow
-	MinimapIcon 2 Yellow Hexagon
+	SetBackgroundColor 150 80 150 255
 	
 Show # Inscribed Ultimatum any
 	Class == "Inscribed Ultimatum"
 	BaseType == "Inscribed Ultimatum"
 	Rarity == Normal
 	AreaLevel <= 74
-	SetFontSize 40
+	SetFontSize 35
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
-	SetBackgroundColor 200 150 200 255
-	PlayAlertSound 2 300
-	PlayEffect Grey
-	MinimapIcon 2 Grey Hexagon
+	SetBackgroundColor 150 80 150 255
 
 #------------------------------------
 #   [3302] Tablet Tiering

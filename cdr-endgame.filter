@@ -784,7 +784,7 @@ Show # anymagic
 Show # anyrare
 	Rarity Rare
 	BaseType == "Ruby" "Emerald" "Sapphire"
-	SetFontSize 30
+	SetFontSize 40
 	SetTextColor 220 220 0 255
 	SetBorderColor 220 220 0 255
 	SetBackgroundColor 120 120 0 225
@@ -794,7 +794,7 @@ Show # anyrare
 Show # anymagic
 	Rarity Normal Magic
 	BaseType == "Ruby" "Emerald" "Sapphire"
-	SetFontSize 30
+	SetFontSize 35
 	SetTextColor 0 75 250 255
 	SetBorderColor 0 75 250 255
 	SetBackgroundColor 0 20 40 255

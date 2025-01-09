@@ -277,7 +277,7 @@ Show #T1 Armour
 	ItemLevel >= 82
 	Rarity Normal Magic
 	BaseType == "Expert Intricate Gloves" "Expert Moulded Mitts" "Expert Spiral Wraps" "Expert Feathered Sandals" "Expert Hunting Shoes" "Expert Hexer's Robe" "Expert Waxed Jacket" "Expert Wayfarer Jacket" "Expert Scalper's Jacket" "Expert Feathered Tiara" "Expert Tribal Mask" "Expert Omen Crest Shield" "Expert Stone Tower Shield" "Expert Crystal Focus" "Expert Plumed Focus"
-	SetFontSize 30
+	SetFontSize 35
 	SetBorderColor 255 125 0 160
 	PlayEffect Blue
 	MinimapIcon 0 Blue Diamond
@@ -288,7 +288,7 @@ Show #T1 Weapons
 	ItemLevel >= 82
 	Rarity Normal Magic
 	BaseType == "Expert Dualstring Bow" "Expert Zealot Bow" "Rattling Sceptre" "Omen Sceptre"
-	SetFontSize 30
+	SetFontSize 35
 	SetBorderColor 255 125 0 160
 	PlayEffect Blue
 	MinimapIcon 0 Blue Diamond
@@ -299,7 +299,7 @@ Show #T1 Quivers
 	ItemLevel >= 82
 	Rarity Normal Magic
 	BaseType == "Primed Quiver" "Penetrating Quiver"
-	SetFontSize 30
+	SetFontSize 35
 	SetBorderColor 255 125 0 160
 	PlayEffect Blue
 	MinimapIcon 0 Blue Diamond
@@ -378,7 +378,7 @@ Show # %D1 $type->chancing $tier->hh
 	Corrupted False
 	Rarity Normal
 	BaseType == "Heavy Belt" "Stellar Amulet" "Azure Amulet" "Emerald Ring" "Sapphire Ring"
-	SetFontSize 30
+	SetFontSize 35
 	SetTextColor 255 255 255 255
 	SetBorderColor 0 150 0 255
 
@@ -670,7 +670,7 @@ Show # t1 Amultes
 	Rarity Rare
 	Class == "Amulets"
 	BaseType == "Solar Amulet" "Lunar Amulet" "Gold Amulet"
-	SetFontSize 30
+	SetFontSize 35
 	SetBackgroundColor 0 80 30 255
 
 Show # t1 Rings
@@ -678,7 +678,7 @@ Show # t1 Rings
 	Rarity Rare
 	Class == "Rings"
 	BaseType == "Gold Ring" "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Amethyst Ring" "Prismatic Ring"
-	SetFontSize 30
+	SetFontSize 35
 	SetBackgroundColor 0 80 30 255
 
 Show # t1 Belts
@@ -686,7 +686,7 @@ Show # t1 Belts
 	Rarity Rare
 	Class == "Belts"
 	BaseType == "Mail Belt" "Utility Belt"
-	SetFontSize 30
+	SetFontSize 35
 	SetBackgroundColor 0 80 30 255
 
 Show # t1 Charms
@@ -694,7 +694,7 @@ Show # t1 Charms
 	Rarity Rare
 	Class == "Charms"
 	BaseType == "Stone Charm" "Thawing Charm" "Antidote Charm" "Silver Charm"
-	SetFontSize 30
+	SetFontSize 35
 	SetBackgroundColor 0 80 30 255
 	
 #===============================================================================================================
@@ -705,14 +705,14 @@ Show # t1 armours
 	ItemLevel >= 65
 	Rarity Rare
 	BaseType == "Expert Intricate Gloves" "Expert Spiral Wraps" "Expert Feathered Sandals" "Expert Hunting Shoes" "Expert Hexer's Robe" "Expert Waxed Jacket" "Expert Wayfarer Jacket" "Expert Scalper's Jacket" "Expert Feathered Tiara" "Expert Tribal Mask" "Expert Plumed Focus" "Expert Dualstring Bow" "Rattling Sceptre" "Omen Sceptre" "Primed Quiver"
-	SetFontSize 30
+	SetFontSize 35
 	SetBackgroundColor 20 20 0 255
 
 Show # t1 armours
 	ItemLevel >= 65
 	Rarity Rare
 	BaseType == "Expert Dualstring Bow" "Expert Zealot Bow" "Rattling Sceptre" "Omen Sceptre" "Primed Quiver" "Penetrating Quiver"
-	SetFontSize 30
+	SetFontSize 35
 	SetBackgroundColor 20 20 0 255
 
 Show # identifieditemhandling
@@ -722,7 +722,7 @@ Show # identifieditemhandling
 	ItemLevel >= 65
 	Rarity Rare
 	Class == "Body Armours" "Boots" "Gloves" "Helmets" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails" "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps" "Quivers" "Shields" "Foci"
-	SetFontSize 30
+	SetFontSize 35
 	SetBorderColor 0 240 190 180
 	PlayEffect Blue Temp
 	
@@ -830,10 +830,10 @@ Show # $type->uncutgem $level->20
 Show # $type->uncutgem $level->19
 	BaseType == "Uncut Spirit Gem"
 	ItemLevel == 19
-	SetFontSize 30
+	SetFontSize 35
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
-	SetBackgroundColor 240 90 35 255
+	SetBackgroundColor 240 190 35 255
 	PlayAlertSound 1 300
 	PlayEffect Yellow
 	MinimapIcon 1 Yellow Triangle
@@ -842,9 +842,8 @@ Show # $type->uncutgem $level->19
 	BaseType == "Uncut Skill Gem"
 	ItemLevel == 19
 	SetFontSize 30
-	SetTextColor 0 0 0 255
-	SetBorderColor 0 0 0 255
-	SetBackgroundColor 249 150 25 255
+	SetTextColor 30 190 190 255
+	SetBorderColor 30 190 190 255
 	PlayAlertSound 2 300
 	PlayEffect Yellow
 	MinimapIcon 2 Yellow Triangle
@@ -981,9 +980,9 @@ Show # High tier runes
 	Class == "Socketable"
 	BaseType == "Iron Rune"
 	SetFontSize 35
-	SetTextColor 0 0 0 255
-	SetBorderColor 0 0 0 255
-	SetBackgroundColor 213 159 0 255
+	SetTextColor 213 159 0 255
+	SetBorderColor 213 159 0 255
+	SetBackgroundColor 0 0 0 255
 	PlayAlertSound 2 300
 	PlayEffect White
 	MinimapIcon 2 White Circle
